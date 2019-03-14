@@ -37,3 +37,7 @@ end
 def using_flatten array
   array.flatten
 end
+
+def using_delete array, string
+  array.delete_if {|x| x = string}
+end
